@@ -1,0 +1,461 @@
+<html>
+    <head>
+        <title> Amazon.com. Spend less. Smile more. </title>
+        <link href = "https://i.ibb.co/31hP5Jx/Screen-Shot-2023-03-24-at-5-39-09-PM.png" rel = "icon"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script>
+            function changeMode(){
+                let mybody = document.body
+                mybody.classList.toggle('mydark')
+            }
+            function changeText(){
+                let mybody = document.body
+                mybody.classList.toggle('mydark')
+                var instance = document.getElementsByClassName("button1");
+                if (instance.value == "LightMode") instance.value = "DarkMode";
+                if (instance.value == "DarkMode") instance.value = "LightMode";
+            }
+        </script>
+        <style>
+            header {
+                background-color: #010f06;
+                height: 70px;
+                margin: 0px;
+            }
+
+            body{
+                background-color: white;
+                color: black
+            }
+
+            .mydark{
+                background-color: black;
+                color: white
+            }
+            .button2 {
+                border: 2px solid red;
+                color: green;
+                padding: 4px 44px;
+                font-size: 12px;
+                margin: 4px 12px;
+                background-color: burlywood;
+            }
+            .button1 {
+                border: 4px solid blue;
+                color: yellow;
+                padding: 6px 34px;
+                font-size: 35px;
+                margin: 4px 12px;
+                background-color: orange;
+            }
+
+            #icons{
+                float: left;
+            }
+
+            #images{
+                margin-left: 80%;
+                margin-top: 0%
+            }
+
+            .boxContainer{
+                float: left;
+                margin-left: 5%;
+                margin-top: 0.5%;
+                width: 100px;
+            }
+
+            .elementsContainer{
+                height: 30px;
+                width: 300px;
+                font-size: 10px;
+                border-radius: 3px;
+                position: relative;
+            }
+
+            .dropdown{
+                height:60px;
+                width: 50%;
+                /* border: 2px solid white; */
+                margin-left: 45%;
+                margin-top: 0.9%;
+                font-size: large;
+                position: absolute;
+                margin-bottom: 2%;
+            }
+
+            .bC{
+                margin-left: 65%;
+                margin-top: 0%;
+            }
+
+            #images{
+                float: left;
+            }
+
+            .tab{
+                margin-top: 0.5%;
+            }
+
+            .tablinks{
+                margin-left: 0.7%;
+                border: 0.2px solid black;
+            }
+
+            .link{
+                margin-top: 0.5%;
+                text-align: right;
+                background-color: rgb(237, 198, 131);
+            }
+
+            .midImages{
+                font-style: oblique;
+                margin-left: 1%;
+                margin-right: 1%;
+                align-items: center;
+            }
+
+            #texts{
+                font-size: 10px;
+                margin-left: 8%;
+                margin-top:1%;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+
+            .subContainer{
+                float: left;
+                margin-bottom: 1%;
+            }
+
+            .third{
+                background-size: cover;
+            }
+
+            footer{
+                background-color: rgb(72, 77, 72);
+                height: 110px;
+            }
+
+            .footer1{
+                float:left;
+                color: white;
+                margin-left: 1%;
+                width: 24%;
+                line-height: 0px;
+            }
+
+            .hello{
+                text-align: center;
+                animation: mixed 10s;
+                float: left;
+                font-size: 20px;
+                font-style: italic;
+                text-align: center;
+                margin-left: 2%;
+                color: black;
+            }
+
+            @keyframes mixed{
+                0%{
+                    margin-left: 3%;
+                    font-size: 13px;
+                }
+                12.5%{
+                    rotate: 45deg;
+                    margin-left: 6%;
+                    font-size: 17px;
+                }
+                25%{
+                    rotate: 90deg;
+                    margin-left: 9%;
+                    font-size: 21px;
+                }
+                37.5%{
+                    rotate: 135deg;
+                    margin-left: 12%;
+                    font-size: 21px;
+                }
+                50%{
+                    rotate: 180deg;
+                    margin-left: 15%;
+                    font-size: 21px;
+                }
+                62.5%{
+                    rotate: 225deg;
+                    margin-left: 12%;
+                    font-size: 21px;
+                }
+                75%{
+                    rotate: 270deg;
+                    margin-left: 9%;
+                    font-size: 21px;
+                }
+                87.5%{
+                    rotate: 315deg;
+                    margin-left: 6%;
+                    font-size: 17px;
+                }
+                100%{
+                    rotate: 360deg;
+                    margin-left: 3%;
+                    font-size: 20px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div id = "icons">
+                <a href="">
+                    <img src="https://i.ibb.co/2jdQWxN/Screen-Shot-2023-03-24-at-5-58-50-PM.png" alt="fblogo" class="socialLogo" height = 45px width = 100 px/>
+                </a>
+                <a href="">
+                    <img src="https://i.ibb.co/kB5WXyn/Screen-Shot-2023-03-24-at-8-10-39-PM.png" alt="fblogo" class="socialLogo" height = 50px width = 50px/>
+                </a>
+            </div>
+            <div class = "boxContainer">
+                <a href = "https://www.amazon.com/">
+                    <button style = "background-color: #0f0901; color: white; border-radius: 5px; font-size: 10px; margin-top: 0.5%; margin-bottom: 0.5% ;margin-left:1%; width: 70px; height: 30px; font-style: italic;"> 
+                        Select your address
+                    </button>
+                </a>
+            </div>
+            <div class = "boxContainer">
+                <table class = "elementsContainer">
+                    <tr>
+                        <td>
+                            <input type = "text" placeholder="Search" class = "Search">
+                        </td> 
+                        <td>
+                            <a href = "#">
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="dropdown">
+                <select>
+                    <option> Select Language </option>
+                    <option> English </option>
+                    <option> French </option>
+                    <option> Spanish </option>
+                    <option> Chinese </option>
+                    <option> Hindi </option>
+                </select>
+            </div>
+            <div class = "bC">
+                <a href = "https://www.amazon.com/">
+                    <button style = "background-color: #0f0901; color: white; border-radius: 2px; font-size: 10px; margin-top: 1%; margin-bottom: 0.5% ;margin-left:1%; width: 70px; height: 30px; font-style: italic;"> 
+                        Sign in
+                    </button>
+                    
+                </a>
+            </div>
+            <div>
+                <button class="button2" onclick = "changeMode()"> <i class="fa fa-bolt" onclick="changeIcon(this)"> Change Mode</i></button>
+            </div>
+            
+        </header>
+        <div>
+            <div class = "tab"> 
+                <button class = "tablinks"> All </button>
+                <button class = "tablinks"> Clinic </button>
+                <button class = "tablinks"> Customer Service </button>
+                <button class = "tablinks"> Best Sellers </button>
+                <button class = "tablinks"> Amazon Basics </button>
+                <button class = "tablinks"> Prime </button>
+                <button class = "tablinks"> New Releases </button>
+                <button class = "tablinks"> Today's Deals </button>
+                <button class = "tablinks"> Music </button>
+                <button class = "tablinks"> Books </button>
+                <button class = "tablinks"> Registry </button>
+                <button class = "tablinks"> Fashion </button>
+                <button class = "tablinks"> Amazon Home </button>
+                <button class = "tablinks"> One Medical </button>
+                <button class = "tablinks"> Live Now: ONE Flight Night </button>
+            </div>
+        </div>
+        <div>
+            <div class = "hello">
+                <p>
+                    Welcome to Amazon
+                </p>
+                <p>
+                    Bienvenida a Amazon
+                </p>
+                <p>
+                    Bienvenue sur Amazone
+                </p>
+            </div>
+            <div class = "link">
+                <a href = "">
+                    <img src = "https://i.ibb.co/sJMcwC9/Screen-Shot-2023-03-25-at-12-35-32-AM.png">
+                </a>
+            </div>
+        </div>
+        <div class = "container"> 
+            <div class = "subContainer">
+                <div id = "texts">
+                    <b>
+                        The warn-weather edit
+                    </b>
+                </div>
+                <div class=" midImages">
+                    <img src = "https://i.ibb.co/QFMgCzS/Screen-Shot-2023-03-25-at-2-40-32-AM.png" height = 200px width = 100%>
+                </div>
+            </div>
+            <div class = "subContainer">
+                <div id = "texts">
+                    <b>
+                        Shop looks from Daisy Jones & the Six
+                    </b>
+                </div>
+                <div class=" midImages">
+                    <img src = "https://i.ibb.co/6XJ33x4/Screen-Shot-2023-03-25-at-3-12-51-AM.png" height = 200px width = 100%>
+                </div>
+            </div>
+            <div class = "subContainer">
+                <div id = "texts">
+                    <b>
+                        Get hassle-free care
+                    </b>
+                </div>
+                <div class=" midImages">
+                    <img src = "https://i.ibb.co/8shP8tz/Screen-Shot-2023-03-25-at-3-17-09-AM.png" height = 200px width = 100%>
+                </div>
+            </div>
+            <div class = "subContainer">
+                <div id = "texts">
+                    <b>
+                        Try spring fashion deals for free
+                    </b>
+                </div>
+                <div class=" midImages">
+                    <img src = "https://i.ibb.co/k4zwztR/Screen-Shot-2023-03-25-at-3-20-37-AM.png" height = 200px width = 100%>
+                </div>
+            </div>
+            <div class = "subContainer">
+                <div id = "texts">
+                    <b>
+                        Hear all the best stories
+                    </b>
+                </div>
+                <div class=" midImages">
+                    <img src = "https://i.ibb.co/p0YFZ5D/Screen-Shot-2023-03-25-at-3-20-42-AM.png" height = 200px width = 100%>
+                </div>
+            </div>
+            <div class = "subContainer">
+                <div id = "texts">
+                    <b>
+                        Shop hot trends in sizes 14+
+                    </b>
+                </div>
+                <div class=" midImages">
+                    <img src = "https://i.ibb.co/njpM2r5/Screen-Shot-2023-03-25-at-3-26-58-AM.png" height = 200px width = 100%>
+                </div>
+            </div>
+            <div class = "third">
+                <img src = "https://i.ibb.co/WG7nCK5/Screen-Shot-2023-03-25-at-3-47-02-AM.png" height = 200px width = 100%>
+            </div>
+        </div>
+        <div> </div>
+        <footer>
+            <div class = "footer1">
+                <p>
+                    <b>
+                        <u>
+                            Get To Know Us
+                        </u>
+                    </b>
+                </p>
+                <p>
+                    Careers
+                </p>
+                <p>
+                    Amazon Newsletter
+                </p>
+                <p>
+                    About Amazon
+                </p>
+                <p>
+                    Accessibility
+                </p>
+                <p>
+                    Sustainability
+                </p>
+            </div>
+            <div class = "footer1">
+                <p>
+                    <b>
+                        <u>
+                            Make Money With Us
+                        </u>
+                    </b>
+                </p>
+                <p>
+                    Sell products on Amazon
+                </p>
+                <p>
+                    Sell apps on Amazon
+                </p>
+                <p>
+                    Supply to Amazon
+                </p>
+                <p>
+                    Protect and build your brand
+                </p>
+                <p>
+                    Become an Affiliate
+                </p>
+            </div>
+            <div class = "footer1">
+                <p>
+                    <b>
+                        <u>
+                            Amazon Payment Products
+                        </u>               
+                    </b>
+                </p>
+                <p>
+                    Amazon Rewards Visa Signature Cards
+                </p>
+                <p>
+                    Amazon Store Card
+                </p>
+                <p>
+                    Amazon Secured Card
+                </p>
+                <p>
+                    Amazon Business Card
+                </p>
+                <p>
+                    Shop with Points
+                </p>
+            </div>
+            <div class = "footer1">
+                <p>
+                    <b>
+                        <u>
+                            Let Us Help You
+                        </u>
+                    </b>
+                </p>
+                <p>
+                    Amazon and COVID-19
+                </p>
+                <p>
+                    Your Account
+                </p>
+                <p>
+                    Your Orders
+                </p>
+                <p>
+                    Shipping Rates & Policies
+                </p>
+                <p>
+                    Amazon Prime
+                </p>
+            </div>
+        </footer>
+    </body>   
+</html>
